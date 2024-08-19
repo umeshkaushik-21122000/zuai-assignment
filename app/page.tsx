@@ -1,6 +1,6 @@
 "use client";
 import NavBar from "@/components/CompositeComonent/NavBar";
-
+import FileUpload from "@/components/CompositeComonent/FileUpload";
 
 
 export default function Home() {
@@ -13,8 +13,9 @@ export default function Home() {
       </div>
       <div className="flex-1 h-full flex flex-col overflow-hidden overflow-y-scroll scrollbar-hide">
         <div className="w-auto flex flex-col justify-center">
+                    {/* file to be uploaded */}
+                    <FileUpload />
         </div>
-        {/* Spacer */}
         <div className="min-h-20" />
       </div>
     </div>
