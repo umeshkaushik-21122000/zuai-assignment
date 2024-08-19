@@ -10,7 +10,7 @@ type Props = {
   file: FileData;
 };
 
-function CourseworkCard({ file }: Props) {
+function CourseWorkCard({ file }: Props) {
   return (
     <Link href={`/file/${file.id}`}>
       <div className="w-[336px] md:w-[292px] lg:w-[394px] xl:w-[440px] h-[156px] lg:h-[172px] rounded-xl border p-3 lg:p-[6px] gap-2 bg-[#FFFFFFA3] bg-custom-gradient border-[#F4EAD8] flex cursor-pointer hover:shadow-allSide">
@@ -97,4 +97,4 @@ function CourseworkCard({ file }: Props) {
   );
 }
 
-export default CourseworkCard;
+export default CourseWorkCard;
