@@ -17,6 +17,8 @@ function CourseWorkCard({ file }: Props) {
         <div className="hidden lg:flex w-[120px] h-[160px] rounded-lg border bg-white border-[#EAF0F2]">
           {file.images && (
             <Image
+              width={20}
+              height={20}
               src={file.images[0]}
               alt={file.fileName}
               className="w-full h-full object-contain"
